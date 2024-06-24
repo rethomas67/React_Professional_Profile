@@ -8,8 +8,8 @@ const data = [
   {
     id: 1,
     image: breathe,
-    title: "HealthQuest-App",
-    desc: "Health Quest is a RESTful API-based web app that aims to provide users with a place to learn and implement good health practices into their routines. Health Quest uses Node.js and Express.js to create a RESTful API, Handlebars.js as the template engine, and MySQL and the Sequelize ORM for the database. User authentication via express-session and cookies protects sensitive user information within a user account.",
+    title: "HealthQuest Application",
+    desc: "Health Quest is a RESTful API-based web app, developed as a group, that aims to provide users with a place to learn and implement good health practices into their routines. Health Quest uses Node.js and Express.js to create a RESTful API, Handlebars.js as the template engine, and MySQL and the Sequelize ORM for the database. User authentication via express-session and cookies protects sensitive user information within a user account.",
     github: "https://chardige.github.io/Travel-planner/",
     demo: "https://github.com/CharDige/Travel-planner.git",
   },
@@ -75,6 +75,7 @@ const Portfolio = () => {
             <section>
               <img src={image}></img>
               <h3>{title}</h3>
+              <p>{desc}</p>
             </section>
           );
         })}

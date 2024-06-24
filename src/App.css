@@ -51,23 +51,45 @@ div {
   color: #888;
 }
 */
+
+footer #root {
+  height: 20px;
+  background: white;
+}
+
+section {
+  background-color: white;
+}
 .project {
+  background-color: white;
   text-align: center;
 }
 .project_image {
+  background-color: white;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+
   justify-content: space-evenly;
   align-items: center;
-  background-color: lightgray;
+  background-color: white;
 }
 
 .project_image > div {
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
 
 img {
   width: 20%;
+}
+
+.Profile_links {
+  background: white;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
