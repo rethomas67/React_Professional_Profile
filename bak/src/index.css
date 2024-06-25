@@ -1,18 +1,6 @@
-.FullName {
-  vertical-align: bottom;
-}
-p {
-  margin: 0;
-}
-body {
-  background-image: url(../src/assets/workprofile.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0% 18%;
-}
 /*
 :root {
-  
+  display: flex;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -28,8 +16,9 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-
-
+.FullName {
+  vertical-align: bottom;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -41,7 +30,6 @@ a:hover {
 
 body {
   display: flex;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;

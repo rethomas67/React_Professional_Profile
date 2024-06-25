@@ -52,57 +52,30 @@ div {
 }
 */
 
-.header_about_container {
-  display: flex;
-  flex-wrap: wrap;
-
-  flex-direction: row;
-  width: 100%;
-}
-.header_contents {
-  display: flex;
-  flex-direction: row;
-
-  width: 100%;
-}
-.about_image {
-  display: flex;
-  text-align: center;
-  width: 50%;
-}
-.about_title {
-  display: flex;
-  text-align: center;
-  width: 50%;
-}
-.about_content {
-  display: block;
-}
-
 footer #root {
   height: 20px;
-  background: transparent;
+  background: white;
 }
 
 section {
-  background-color: transparent;
+  background-color: white;
 }
 .project {
-  background-color: transparent;
+  background-color: white;
   text-align: center;
 }
 .project_image {
-  background-color: transparent;
+  background-color: white;
   display: flex;
   flex-direction: row;
 
   justify-content: space-evenly;
   align-items: center;
-  background-color: transparent;
+  background-color: white;
 }
 
 .project_image > div {
-  background-color: transparent;
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
@@ -112,7 +85,7 @@ img {
 }
 
 .Profile_links {
-  background: transparent;
+  background: white;
   font-size: 2rem;
   display: flex;
   flex-direction: row;
@@ -122,7 +95,7 @@ img {
 }
 
 .portfolio_links {
-  background: transparent;
+  background: white;
   font-size: 2rem;
   display: flex;
   flex-direction: row;

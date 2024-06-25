@@ -33,6 +33,7 @@ export default function Nav() {
         >
           Portfolio
         </NavLink>,
+
         <NavLink
           key={3}
           className={({ isActive }) => {
@@ -40,16 +41,6 @@ export default function Nav() {
           }}
           //selected
           to="contact"
-        >
-          Contact
-        </NavLink>,
-        <NavLink
-          key={4}
-          className={({ isActive }) => {
-            return isActive ? "nav-link text-info" : "nav-link text-light";
-          }}
-          //selected
-          to="./assets/RichardThomas.docx"
         >
           Contact
         </NavLink>,

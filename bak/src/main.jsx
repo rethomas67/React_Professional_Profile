@@ -12,19 +12,14 @@ import App from "./App";
 //import ProfilePage from "./pages/ProfilePage";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-
+    //errorElement: <ErrorPage />,
     children: [
-      {
-        path: "/",
-        element: <About />,
-      },
       {
         path: "about",
         element: <About />,
@@ -32,10 +27,6 @@ const router = createBrowserRouter([
       {
         path: "portfolio",
         element: <Portfolio />,
-      },
-      {
-        path: "contact",
-        element: <Contact />,
       },
       /* {
         index: true,
